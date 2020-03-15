@@ -1,0 +1,10 @@
+Comme le graphe est non-orienté et les valeurs des arêtes symétriques, un plus cours chemin de
+//    i à j est aussi un plus court de j à i lorsqu’il est parcouru à l’envers. En conséquence distance
+//    est symétrique.
+//    Pour montrer que distance satisfait l’inégalité triangulaire, il suffit de noter que, comme le
+//    graphe est connexe, il existe un chemin entre i et j (passant par k) de longueur distance[i][k]+
+//    distance[k][j]. Puisque distance[i][j] est la longueur du plus petit chemin entre i et j, cette
+//    quantité doit nécessairement être au plus la somme précédente.
+//            b) Indiquez des algorithmes utilisables pour calculer cette matrice des distances ; précisez
+//    éventuellement leurs complexités.
+
